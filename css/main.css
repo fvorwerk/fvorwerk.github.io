@@ -1,0 +1,152 @@
+/* Base files. */
+/* line 2, /home/felix/git/steckbrief/html/_sass/base/_font.scss */
+h1 {
+  color: #000;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-variant: normal;
+}
+
+/* line 9, /home/felix/git/steckbrief/html/_sass/base/_font.scss */
+h2 {
+  color: #000;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.8em;
+  font-style: normal;
+  font-variant: normal;
+}
+
+/* line 16, /home/felix/git/steckbrief/html/_sass/base/_font.scss */
+h3 {
+  color: #000;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6em;
+  font-style: normal;
+  font-variant: normal;
+}
+
+/* line 26, /home/felix/git/steckbrief/html/_sass/base/_font.scss */
+h4 {
+  color: #000;
+  font-family: "lobster";
+  font-size: 1.8empt;
+  font-style: normal;
+  font-variant: normal;
+}
+
+/* line 1, /home/felix/git/steckbrief/html/_sass/base/_body.scss */
+body {
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+  background-color: #e3e3e3;
+}
+
+/* line 11, /home/felix/git/steckbrief/html/_sass/base/_body.scss */
+.wrapper {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: auto;
+}
+
+/* line 2, /home/felix/git/steckbrief/html/_sass/base/_logo.scss */
+.logo {
+  margin-left: 40px;
+  padding: 20px;
+  height: 150px;
+  width: 150px;
+}
+
+/* line 2, /home/felix/git/steckbrief/html/_sass/base/_social.scss */
+#social {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+/* line 2, /home/felix/git/steckbrief/html/_sass/base/_menu.scss */
+.menu ul {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15pt;
+  font-style: normal;
+  font-variant: normal;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  background-color: #077ca3;
+}
+
+/* line 17, /home/felix/git/steckbrief/html/_sass/base/_menu.scss */
+.menu li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* line 23, /home/felix/git/steckbrief/html/_sass/base/_menu.scss */
+.menu .active {
+  background-color: #e3e3e3;
+  color: #000;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* line 30, /home/felix/git/steckbrief/html/_sass/base/_menu.scss */
+.menu a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 35, /home/felix/git/steckbrief/html/_sass/base/_menu.scss */
+.menu:hover:not(.active) {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 42, /home/felix/git/steckbrief/html/_sass/base/_menu.scss */
+.claim {
+  color: #fff;
+  background-color: #6f786a;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 2, /home/felix/git/steckbrief/html/_sass/base/_table.scss */
+table {
+  position: center;
+  border-collapse: collapse;
+}
+
+/* line 6, /home/felix/git/steckbrief/html/_sass/base/_table.scss */
+td {
+  color: #000;
+  padding: 15px;
+  text-align: left;
+  border: 1px solid;
+  border-color: #077ca3;
+}
+
+/* line 13, /home/felix/git/steckbrief/html/_sass/base/_table.scss */
+th {
+  color: #000;
+  background-color: #077ca3;
+  color: #fff;
+  padding: 15px;
+  text-align: left;
+  border: 1px solid;
+  border-color: #077ca3;
+  border-collapse: collapse;
+}
+
+/*# sourceMappingURL=../css/main.map */
