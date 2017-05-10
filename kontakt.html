@@ -3,7 +3,7 @@
 
     <head>
     <meta charset="utf-8">
-    <title>Felix Vorwerk | Home</title>
+    <title>Felix Vorwerk | Kontakt</title>
 
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -55,7 +55,7 @@
 
     
     
-        <li  class="active" >
+        <li >
             <a href="/index.html">Home
             </a>
         </li>
@@ -73,7 +73,7 @@
         </li>
      
     
-        <li >
+        <li  class="active" >
             <a href="/kontakt.html">Kontakt
             </a>
         </li>
@@ -91,15 +91,14 @@
 
 
            <div class="wrapper">
-   <h2>Home</h2>
-   <p><strong>Hallo und herzlich willkommen auf meiner kleinen Website!</strong></p>
-
-<p>Auf dieser Seite könnt ihr ein wenig über mich und was ich so mache, in Erfahrung bringen. <br />
-<br /></p>
-
-<p>Also dann viel Spaß!</p>
-
-<p><img src="/assets/img/sign.png" alt="Felix" /></p>
+   <h2>Kontakt</h2>
+   <form class="form-style-6" action="https://formspree.io/kontakt@felix-vorwerk.de"
+     method="POST">
+   <input type="text" name="Name:" placeholder="Dein Name">
+   <input type="email" name="E-Mail:" placeholder="Deine E-Mail Adresse">
+   <textarea name="Nachricht:" placeholder="Deine Nachricht" onkeyup="adjust_textarea(this)"></textarea>
+   <input type="submit" value="Senden">
+</form>
 
   </div>
 
